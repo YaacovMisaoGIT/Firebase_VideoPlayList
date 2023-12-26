@@ -3,8 +3,6 @@ import '../App.css';
 import { db } from '../config';
 import { collection, getDocs } from 'firebase/firestore';
 import { useNavigate, Navigate } from "react-router-dom";
-import firebase from 'firebase/app';
-import 'firebase/firestore';
 
 export function Showvideos() {
   const [videos, setVideos] = useState([]);
