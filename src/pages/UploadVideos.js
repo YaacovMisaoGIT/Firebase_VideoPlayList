@@ -1,5 +1,7 @@
 import { React, useState } from 'react'
 import { useAddData } from '../useAddData'
+import firebase from 'firebase/app';
+import 'firebase/firestore';
 
 export function UploadVideos() {
   const { addData } = useAddData();
